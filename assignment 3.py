@@ -1,5 +1,6 @@
 #question1
 str=input("enter the string ")                                    #asking for input
+str=str.lower()
 str=str.strip()                                                  #striping the string 
 if ' ' in str:                                                   #string will be sentence if ithas space in it otherwise word
      str=str+' '                                                 #in case of sentence adding space at last because program recognise word by spaces
